@@ -6,7 +6,7 @@
 <body>
     <h1>Account Balance</h1>
     <p id="balance">
-        <?php
+        <?php// change the username right here-------->
             $url = 'https://magi.duinocoin.com/balances/katfaucet';
             $json = @file_get_contents($url);
             if ($json === FALSE) {
